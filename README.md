@@ -27,25 +27,26 @@ This project is a Power BI dashboard designed to track my daily study time acros
 
 ### 🔹 Overview Page
 
-![Overview](overview.png)
+![Overview](Overview.png)
 
 ### 🔹 HL Subjects
 
-![HL](hl.png)
+![HL](HL.png)
 
 ### 🔹 SL Subjects
 
-![SL](sl.png)
+![SL](SL.png)
 
 ## 📁 Files Included
 
-* `dashboard.pbix` → Power BI file
-* `study_data.xlsx` → Data source
-* Screenshots for preview
+* `Progress.pbix` → Power BI dashboard
+* `Study_Time_Tracker_IB.xlsx` → Data file
 
-## 🧠 Insights
+## 🧠 Key Insights
 
-This dashboard helps in understanding study patterns and improving time management by providing clear visual feedback.
+* Physics study time is inconsistent
+* Computer Science shows increasing focus
+* SL subjects are receiving less attention
 
 ## 👨‍💻 Author
 
