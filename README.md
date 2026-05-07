@@ -41,7 +41,7 @@ This project is a Power BI dashboard designed to track my daily study time acros
 
 * `Progress.pbix` → Power BI dashboard
 * `Study_Time_Tracker_IB.xlsx` → Data file
-
+* `Dashboard_Background.png` → Dashboard Background
 ## 🧠 Key Insights
 
 * Physics study time is inconsistent
