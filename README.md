@@ -18,11 +18,9 @@ Partway through the IB Diploma I noticed I *felt* like I was studying Physics a 
 |---|---|---|
 | ![Overview](Overview.png) | ![HL](HL.png) | ![SL](SL.png) |
 
-## What it found
+## What it's for
 
-- Physics study time was the least consistent of the three HL subjects.
-- Computer Science time increased over the tracked period.
-- SL subjects (Economics, English, French ab initio) received noticeably less time than HL subjects — expected given HL weighting, but useful to confirm rather than assume.
+The goal isn't a one-time report — it's a habit of checking assumptions against real data instead of going by feel. I'm still building up logged history, so I'm not drawing firm conclusions yet; the dashboard is the mechanism for catching real patterns as the log grows, not a finished analysis.
 
 ## Limitations (read this before trusting the numbers)
 
