@@ -1,53 +1,53 @@
-# 📊 IB Study Progress Dashboard
+# IB Study Progress Dashboard
 
-## 🚀 Overview
+A Power BI dashboard that tracks my daily IB study time across HL and SL subjects, so I can see — instead of guess — where my time actually goes.
 
-This project is a Power BI dashboard designed to track my daily study time across IB subjects (HL & SL) over the last 7 days.
+## Why I built this
 
-## 🎯 Purpose
+Partway through the IB Diploma I noticed I *felt* like I was studying Physics a lot and Computer Science barely at all, but I had no data to check that against. This project replaced the feeling with a log.
 
-* Track study consistency
-* Balance time between subjects
-* Identify weak or ignored subjects
+## How it works
 
-## 📊 Features
+1. Study sessions are logged manually in `Study_Time_Tracker_IB.xlsx` (subject, date, duration).
+2. `Progress.pbix` reads that spreadsheet and builds three views: an overview of the last 7 days, an HL breakdown, and an SL breakdown.
+3. The dashboard is refreshed by re-opening the `.pbix` file in Power BI Desktop after updating the spreadsheet.
 
-* Daily study time tracking
-* Subject-wise time distribution
-* HL vs SL filtering
-* Last 7 days progress analysis
+## Dashboard preview
 
-## 🛠 Tools Used
+| Overview | HL Subjects | SL Subjects |
+|---|---|---|
+| ![Overview](Overview.png) | ![HL](HL.png) | ![SL](SL.png) |
 
-* Power BI
-* Excel
-* GitHub
+## What it found
 
-## 📷 Dashboard Preview
+- Physics study time was the least consistent of the three HL subjects.
+- Computer Science time increased over the tracked period.
+- SL subjects (Economics, English, French ab initio) received noticeably less time than HL subjects — expected given HL weighting, but useful to confirm rather than assume.
 
-### 🔹 Overview Page
+## Limitations (read this before trusting the numbers)
 
-![Overview](Overview.png)
+This is self-reported, manually-logged data, not sensor- or app-tracked time. That means it's subject to the usual biases of self-tracking: sessions may be rounded up, short sessions may go unlogged entirely, and "study time" isn't the same as focused time. Treat the dashboard as a directional signal, not a precise measurement.
 
-### 🔹 HL Subjects
+## Files
 
-![HL](HL.png)
+| File | Purpose |
+|---|---|
+| `Progress.pbix` | Power BI dashboard (open in Power BI Desktop) |
+| `Study_Time_Tracker_IB.xlsx` | Underlying logged data |
+| `Dashboard_Background.png`, `Overview.png`, `HL.png`, `SL.png` | Dashboard background and preview screenshots |
 
-### 🔹 SL Subjects
+## Tools used
 
-![SL](SL.png)
+Power BI · Excel · Git/GitHub
 
-## 📁 Files Included
+## Where this is going
 
-* `Progress.pbix` → Power BI dashboard
-* `Study_Time_Tracker_IB.xlsx` → Data file
-* `Dashboard_Background.png` → Dashboard Background
-## 🧠 Key Insights
+This dashboard is the first version of an ongoing project. The next iteration moves the analysis from Power BI into a proper Python/ML pipeline that predicts which subjects need more attention — details to follow in a dedicated repo once it's built.
 
-* Physics study time is inconsistent
-* Computer Science shows increasing focus
-* SL subjects are receiving less attention
+## License
 
-## 👨‍💻 Author
+MIT — see [`LICENSE`](LICENSE).
 
-Ramandeep Singh
+## Author
+
+Ramandeep Singh Mathaon · [LinkedIn](https://www.linkedin.com/in/ramandeep-singh-mathaon-b42795386)
